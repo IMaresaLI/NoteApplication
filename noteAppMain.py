@@ -51,7 +51,9 @@ class NoteApp(QtWidgets.QMainWindow):
     def home(self):
         self.ui.stackedWidget.setCurrentIndex(0)
         self.clearFunc()
-    
+        self.ui.noteAddBtn.setEnabled(True)
+        self.ui.noteDeleteBtn.setEnabled(True)
+
     def addNotePage(self):
         self.ui.treeWidget.setAnimated(True)
         self.ui.addBtn.setHidden(False)
@@ -108,6 +110,8 @@ class NoteApp(QtWidgets.QMainWindow):
         self.ui.timeLbl.setText("Zaman : "+ file[item.data(0,0)]["date"])
         self.ui.notTextPte.setPlainText(file[item.data(0,0)]["text"])
         name = item.data(0,0)
+        self.ui.noteAddBtn.setEnabled(False)
+        self.ui.noteDeleteBtn.setEnabled(False)
 
     def updateClicked(self):
         dict = {}
@@ -119,6 +123,9 @@ class NoteApp(QtWidgets.QMainWindow):
         QtWidgets.QMessageBox.information(self,"Bilgilendirme","Notunuz kaydedildi.")
         self.ui.stackedWidget.setCurrentIndex(0)
         self.noteLoad()
+        self.ui.noteAddBtn.setEnabled(True)
+        self.ui.noteDeleteBtn.setEnabled(True)
+
 
     def noteDelete(self):
         try :
