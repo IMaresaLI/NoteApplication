@@ -1,0 +1,186 @@
+#headBarFrame{
+    background-color: #030D1C;
+}
+#menuFrame{
+    background-color: #06162E;
+}
+#pageFrame{
+    background-color: #0A2957;
+}
+#homeBtn{
+    background-color: #06162E;
+    border: transparent;
+    color: white;
+}
+#homeBtn:hover{
+    background-color: #062c61;
+    border: none;
+}
+#homeBtn:pressed{
+    background-color: #052e6b;
+    border: none;
+}
+#noteAddBtn{
+    background-color: #06162E;
+    border: transparent;
+    color: white;
+}
+#noteAddBtn:hover{
+    background-color: #062c61;
+    border: none;
+}
+#noteAddBtn:pressed{
+    background-color: #052e6b;
+    border: none;
+}
+#noteUpdateBtn{
+    background-color: #06162E;
+    border: transparent;
+    color: white;
+}
+#noteUpdateBtn:hover{
+    background-color: #062c61;
+    border: none;
+}
+#noteUpdateBtn:pressed{
+    background-color: #052e6b;
+    border: none;
+}
+#noteDeleteBtn{
+    background-color: #06162E;
+    border: transparent;
+    color: white;
+}
+#noteDeleteBtn:hover{
+    background-color: #062c61;
+    border: none;
+}
+#noteDeleteBtn:pressed{
+    background-color: #052e6b;
+    border: none;
+}
+#noteShareBtn{
+    background-color: #06162E;
+    border: transparent;
+    color: white;
+
+}
+#noteShareBtn:hover{
+    background-color: #062c61;
+    border: none;
+}
+#noteShareBtn:pressed{
+    background-color: #052e6b;
+    border: none;
+}
+#settingBtn{
+    background-color: #06162E;
+    border: transparent;
+    color: white;
+
+}
+#settingBtn:hover{
+    background-color: #062c61;
+    border: none;
+}
+#settingBtn:pressed{
+    background-color: #052e6b;
+    border: none;
+}
+
+QHeaderView{
+    background-color: #0141a0;
+    color:white;
+    font: 75 10pt "Century Gothic";
+}
+QHeaderView::section:horizontal {
+    border: none;
+    color: white;
+    background: transparent;
+    padding-left: 5px;
+}  
+
+QHeaderView::section:vertical {
+    border: none;
+    color: white;
+    background: transparent;
+    padding-left: 5px;
+
+}  
+
+QTreeWidget{
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    font: 10pt "Century Gothic";
+}
+
+QTreeWidget::item:selection{
+    font:75 10pt "Century Gothic";
+    color: white;
+}
+QTreeWidget::item:selected:active{
+    font:75 10pt "Century Gothic";
+    background-color: #034dbb;
+    color: rgb(204, 250, 37);
+}
+
+QGroupBox{
+    border: none;
+}
+
+#label{color:white; font: 9pt "Century Gothic";}
+#lengthCharacterLbl{color:white; font: 9pt "Century Gothic";}
+#timeLbl{color:white; font: 9pt "Century Gothic";}
+
+#noteNameTbx{
+    background-color: transparent;
+    border: none;
+    color:white;
+    border-radius: 10px;
+    font: 9pt "Century Gothic";
+}
+
+#addBtn{color:black;}
+
+#notTextPte{
+    font: 10pt "Century Gothic";
+    background-color: #030D1C;
+    color:white;
+    border-radius: 8px;
+}
+
+QPushButton{font: 10pt "Century Gothic";}
+
+#IconLbl{
+    image:url("style/marelogo.ico")
+}
+#IconLbl_2{
+    image:url("style/pencil.png")
+    
+}
+
+#InstagramBtn{
+    background-color: transparent;
+    border:0px;
+    image: url("style/instagram.png");
+}
+
+#FacebookBtn{
+    background-color: transparent;
+    border:0px;
+    image: url("style/Facebook.png");
+}
+
+#GithubBtn{
+    background-color: transparent;
+    border:0px;
+    image: url("style/Github.png");
+}
+
+#InstagramBtn:hover{image: url("style/instagramhover.png");}
+
+#GithubBtn:hover{image: url("style/GithubHover.png");}
+
+#FacebookBtn:hover{image: url("style/FacebookHover.png");}
